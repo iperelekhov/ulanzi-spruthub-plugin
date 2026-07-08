@@ -5,6 +5,13 @@ U200 key. The plugin ships five actions covering lights, sockets, climate,
 buttons and sensors — each key reflects its device's live state on the icon and
 stays in sync via the hub's WebSocket push events.
 
+<details>
+<summary>How it looks on real device</summary>
+
+![Real device](repo_img/work_example.jpg)
+
+</details>
+
 ## Actions
 
 | Action | Device | On press | State on icon |
