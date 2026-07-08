@@ -5,3 +5,4 @@ dist-release/
 .sim/*
 !.sim/.gitkeep
 scripts/*
+.DS_Store
