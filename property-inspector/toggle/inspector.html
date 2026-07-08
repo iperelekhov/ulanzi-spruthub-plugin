@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover" />
+  <title>Spruthub Bulb Toggle</title>
+  <link rel="stylesheet" href="../../libs/css/uspi.css">
+  <style>
+    .uspi-item-label {
+      width: 112px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="udpi-wrapper hidden uspi-wrapper">
+
+    <form id="property-inspector">
+
+      <div class="uspi-heading" data-localize>Spruthub Connection</div>
+
+      <div class="uspi-item">
+        <div class="uspi-item-label" data-localize>WebSocket URL</div>
+        <input class="uspi-item-value" type="text" id="wsUrl" name="wsUrl"
+          placeholder="wss://192.168.0.100:443" required>
+      </div>
+
+      <div class="uspi-item">
+        <div class="uspi-item-label" data-localize>Email</div>
+        <input class="uspi-item-value" type="text" id="email" name="email" required>
+      </div>
+
+      <div class="uspi-item">
+        <div class="uspi-item-label" data-localize>Password</div>
+        <input class="uspi-item-value" type="password" id="password" name="password" required>
+      </div>
+
+      <div class="uspi-item">
+        <div class="uspi-item-label" data-localize>Serial</div>
+        <input class="uspi-item-value" type="text" id="serial" name="serial" required>
+      </div>
+
+      <details>
+        <summary data-localize>Credentials are shared by all Spruthub keys.</summary>
+      </details>
+
+      <div class="uspi-heading" data-localize>Device</div>
+
+      <div class="uspi-item">
+        <div class="uspi-item-label" data-localize>Accessory ID (aId)</div>
+        <input class="uspi-item-value" type="text" id="aId" name="aId" pattern="\d+" required>
+      </div>
+
+      <div class="uspi-item">
+        <div class="uspi-item-label" data-localize>Service ID (sId)</div>
+        <input class="uspi-item-value" type="text" id="sId" name="sId" pattern="\d+" required>
+      </div>
+
+      <div class="uspi-item">
+        <div class="uspi-item-label" data-localize>Characteristic ID (cId)</div>
+        <input class="uspi-item-value" type="text" id="cId" name="cId" pattern="\d+" required>
+      </div>
+
+    </form>
+
+  </div>
+
+  <script src="../../libs/js/constants.js"></script>
+  <script src="../../libs/js/eventEmitter.js"></script>
+  <script src="../../libs/js/timers.js"></script>
+  <script src="../../libs/js/utils.js"></script>
+  <script src="../../libs/js/ulanziApi.js"></script>
+
+  <script src="./inspector.js"></script>
+
+</body>
+
+</html>

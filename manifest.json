@@ -1,0 +1,106 @@
+{
+  "Version": "1.0.0",
+  "Author": "Ulanzi",
+  "Name": "Spruthub",
+  "Description": "Control Spruthub (Sprut.hub) devices",
+  "Icon": "assets/icons/pluginIcon.png",
+  "Category": "Spruthub",
+  "CategoryIcon": "assets/icons/category.png",
+  "CodePath": "dist/app.js",
+  "Type": "JavaScript",
+  "Inspect": "--inspect=127.0.0.1:9202",
+  "PrivateAPI": true,
+  "SupportedInMultiActions": false,
+  "UUID": "com.ulanzi.ulanzistudio.spruthub",
+  "Actions": [
+    {
+      "Name": "Bulb Toggle",
+      "Icon": "assets/icons/bulb_off.svg",
+      "PropertyInspectorPath": "property-inspector/toggle/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Image": "assets/icons/bulb_off.svg"
+        },
+        {
+          "Image": "assets/icons/bulb_on.svg"
+        }
+      ],
+      "Tooltip": "Toggle a Spruthub On/Off device",
+      "UUID": "com.ulanzi.ulanzistudio.spruthub.toggle",
+      "SupportedInMultiActions": false
+    },
+    {
+      "Name": "Button Press",
+      "Icon": "assets/icons/button.svg",
+      "PropertyInspectorPath": "property-inspector/button/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Image": "assets/icons/button.svg"
+        }
+      ],
+      "Tooltip": "Emit a press to a Spruthub programmable button",
+      "UUID": "com.ulanzi.ulanzistudio.spruthub.button",
+      "SupportedInMultiActions": true
+    },
+    {
+      "Name": "Sensor",
+      "Icon": "assets/icons/sensor.svg",
+      "PropertyInspectorPath": "property-inspector/sensor/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Image": "assets/icons/sensor.svg"
+        }
+      ],
+      "Tooltip": "Show a Spruthub temperature and/or humidity reading",
+      "UUID": "com.ulanzi.ulanzistudio.spruthub.sensor",
+      "SupportedInMultiActions": false
+    },
+    {
+      "Name": "Socket Toggle",
+      "Icon": "assets/icons/socket_off.svg",
+      "PropertyInspectorPath": "property-inspector/socket/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Image": "assets/icons/socket_off.svg"
+        },
+        {
+          "Image": "assets/icons/socket_on.svg"
+        }
+      ],
+      "Tooltip": "Toggle a Spruthub socket/switch On/Off",
+      "UUID": "com.ulanzi.ulanzistudio.spruthub.socket",
+      "SupportedInMultiActions": false
+    },
+    {
+      "Name": "Air Conditioner",
+      "Icon": "assets/icons/ac.svg",
+      "PropertyInspectorPath": "property-inspector/ac/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Image": "assets/icons/ac.svg"
+        }
+      ],
+      "Tooltip": "Control a Spruthub air conditioner (display / mode / fan / swing / temp / power)",
+      "UUID": "com.ulanzi.ulanzistudio.spruthub.ac",
+      "SupportedInMultiActions": false
+    }
+  ],
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinVersion": "2.1.4"
+  }
+}

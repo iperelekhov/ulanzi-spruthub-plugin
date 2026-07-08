@@ -1,0 +1,72 @@
+{
+	"Name": "Spruthub",
+	"Description": "Control Spruthub (Sprut.hub) devices",
+	"Actions": [
+		{
+			"Name": "Bulb Toggle",
+			"Tooltip": "Toggle a Spruthub On/Off device"
+		},
+		{
+			"Name": "Button Press",
+			"Tooltip": "Emit a press to a Spruthub programmable button"
+		},
+		{
+			"Name": "Sensor",
+			"Tooltip": "Show a Spruthub temperature and/or humidity reading"
+		},
+		{
+			"Name": "Socket Toggle",
+			"Tooltip": "Toggle a Spruthub socket/switch On/Off"
+		},
+		{
+			"Name": "Air Conditioner",
+			"Tooltip": "Control a Spruthub air conditioner"
+		}
+	],
+	"Localization": {
+		"Spruthub Connection": "Spruthub Connection",
+		"WebSocket URL": "WebSocket URL",
+		"Email": "Email",
+		"Password": "Password",
+		"Serial": "Serial",
+		"Credentials are shared by all Spruthub keys.": "Credentials are shared by all Spruthub keys.",
+		"Device": "Device",
+		"Button": "Button",
+		"Accessory ID (aId)": "Accessory ID (aId)",
+		"Service ID (sId)": "Service ID (sId)",
+		"Characteristic ID (cId)": "Characteristic ID (cId)",
+		"Press Type": "Press Type",
+		"Single press": "Single press",
+		"Double press": "Double press",
+		"Long press": "Long press",
+		"Temperature (optional)": "Temperature (optional)",
+		"Humidity (optional)": "Humidity (optional)",
+		"CO2 / PPM (optional)": "CO2 / PPM (optional)",
+		"Fill Temperature, Humidity, or both.": "Fill Temperature, Humidity, or both.",
+		"Fill any combination of Temperature, Humidity, CO2/PPM.": "Fill any combination of Temperature, Humidity, CO2/PPM.",
+		"Key Role": "Key Role",
+		"Role": "Role",
+		"Display (large tile)": "Display (large tile)",
+		"Mode (heat/cool/auto)": "Mode (heat/cool/auto)",
+		"Fan speed": "Fan speed",
+		"Swing": "Swing",
+		"Temp +": "Temp +",
+		"Temp -": "Temp -",
+		"Power on/off": "Power on/off",
+		"Mode": "Mode",
+		"Press cycles (Display)": "Press cycles (Display)",
+		"Air Conditioner": "Air Conditioner",
+		"Characteristic IDs": "Characteristic IDs",
+		"Current temp cId": "Current temp cId",
+		"Current temp sId": "Current temp sId",
+		"Target temp cId": "Target temp cId",
+		"Mode cId": "Mode cId",
+		"Fan cId": "Fan cId",
+		"Swing cId": "Swing cId",
+		"Display shows": "Display shows",
+		"Current + Target temp": "Current + Target temp",
+		"Mode + Fan": "Mode + Fan",
+		"Target + Mode": "Target + Mode",
+		"Swing + Fan": "Swing + Fan"
+	}
+}
